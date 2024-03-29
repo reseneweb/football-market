@@ -1,4 +1,4 @@
-**Football market**
+# Football Market
 
 Welcome to Football Market, a premium online store specializing in football balls, equipment and accessories. This website is designed to showcase a carefully selected selection of high quality football products, allowing football fans and professionals alike to find everything they need to improve their game.
 
@@ -14,4 +14,4 @@ This project was created using the following technologies:
 - CSS3 - for styling and layout.
 - JS - to implement a popup menu.
 
-Project: https://reseneweb.github.io/football-market/
+**Project**: https://reseneweb.github.io/football-market/
