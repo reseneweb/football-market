@@ -18,12 +18,18 @@
             <span class="icon-close2 js-menu-toggle"></span>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+        <div class="site-mobile-menu-body">
+          <ul class="site-nav-wrap">
+            <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="equipment.html" class="nav-link">Equipment</a></li>
+            <li><a href="accessories.html" class="nav-link">Accessories</a></li>
+            <li><a href="balls.html" class="nav-link">Balls</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
       </div>
 
-
       <header class="site-navbar py-4" role="banner">
-
         <div class="container">
           <div class="d-flex align-items-center">
             <div class="site-logo">
@@ -69,19 +75,18 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-7">
-              <form action="#">
+              <form action="#" method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Name">
+                  <input type="text" class="form-control" placeholder="Name" required>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Email">
+                  <input type="email" class="form-control" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Subject">
+                  <input type="text" class="form-control" placeholder="Subject" required>
                 </div>
                 <div class="form-group">
-                  <textarea name="" class="form-control" id="" cols="30" rows="10"
-                    placeholder="Write something..."></textarea>
+                  <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write something..." required></textarea>
                 </div>
                 <div class="form-group">
                   <input type="submit" class="btn btn-primary py-3 px-5" value="Send Message">
@@ -106,7 +111,6 @@
           </div>
         </div>
       </div>
-
 
       <footer class="footer-section">
         <div class="container">
@@ -177,5 +181,6 @@
         </div>
       </footer>
     </div>
+    <script src="./menu-toggle.js"></script>
   </body>
 </html>

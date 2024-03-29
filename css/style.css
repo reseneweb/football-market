@@ -278,7 +278,7 @@ h5 {
   width: 300px;
   position: fixed;
   right: 0;
-  z-index: 2000;
+  z-index: 3000;
   padding-top: 20px;
   background: #fff;
   height: calc(100vh);
@@ -290,6 +290,12 @@ h5 {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out
+}
+
+.site-mobile-menu.active {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 .site-mobile-menu .site-mobile-menu-header {
