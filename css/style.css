@@ -2585,7 +2585,9 @@ a.bg-light:hover {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem !important;
 }
 
 .ml-4,
@@ -3252,6 +3254,31 @@ a.text-light:hover {
 
 .text-white-50 {
   color: rgba(255, 255, 255, .5) !important
+}
+
+.home-price {
+  display: inline;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ee1e46;
+}
+
+.down-price {
+  margin-left: 10px;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ee1e46;
+}
+
+.ball-price {
+  line-height: 1;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ee1e46;
 }
 
 @media print {
